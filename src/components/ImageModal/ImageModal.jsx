@@ -11,7 +11,7 @@ export default function ImageModal({isOpen, onRequestClose, image}){
             shouldCloseOnOverlayClick={true}
             shouldCloseOnEsc={true}
           >
-            {image && <img src={image} alt="Selected" className={css.largeImage} />}
+            {image && <img src={image} alt="Modal content" className={css.largeImage} />}
           </Modal>
         );
 }
